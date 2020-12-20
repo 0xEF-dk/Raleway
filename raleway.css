@@ -1,0 +1,198 @@
+html{
+    background: rgb(32, 33, 35);
+}
+body{
+    margin: 20px;
+    background: rgb(52, 53, 58);
+    padding-bottom: 100px;
+}
+nav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/*'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22pt;
+    color: aliceblue;
+    width: 65%;
+    margin: auto;
+}
+span.menu{
+    position: sticky;
+    left: 100%;
+    transform: translateY(-100%);
+    font-size: 14pt;
+    font-weight: 100;
+    font-weight: lighter;
+    vertical-align: middle;
+}
+a.label{
+    text-decoration: none;
+    font-weight: inherit;
+    cursor: pointer;
+    color:white;
+    vertical-align: middle;
+}
+a.menuelement-selected{
+    padding: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 100;
+    background-color: rgb(82, 145, 198);
+    text-decoration: underline;
+    font-weight: inherit;
+    cursor: pointer;
+    white-space: nowrap;
+    color:aliceblue;
+}
+a.menuelement-selected:hover{
+    background-color:rgb(130, 177, 216);
+    cursor: pointer;
+}
+a.menuelement{
+    padding: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 100;
+    font-weight: inherit;
+    white-space: nowrap;
+    color:aliceblue;
+    text-decoration: none;
+}
+a.menuelement:hover{
+    background-color: rgb(130, 177, 216);
+    cursor: pointer;
+}
+a.button{
+    display: table;
+    font-family: Roboto;
+    font-size: 12pt;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(211, 175, 87);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: inherit;
+    cursor: pointer;
+    white-space: nowrap;
+    color:aliceblue;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+a.button:hover{
+    background-color:rgb(214, 190, 127);
+    cursor: pointer;
+}
+a.blockButton{
+    display: table;
+    font-family: Roboto;
+    font-size: 12pt;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(237, 237, 237);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: inherit;
+    cursor: pointer;
+    white-space: nowrap;
+    color:black;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+a.blockButton:hover{
+    background-color:rgb(82, 145, 198);
+    cursor: pointer;
+}
+div.undermenu{
+    margin-top: 64px;
+    border-style: none;
+    border-top: 2px solid rgb(70, 73, 78);
+}
+article{
+    font-family: 'Roboto Thin';
+    text-align: center;
+    color: aliceblue;
+    width: 65%;
+    margin: auto;
+    font-size: 16pt;
+}
+svg.lowtriangle{
+    fill: rgb(32, 33, 35); 
+    stroke:none; 
+    display: flex;
+    position: relative; 
+    top:100px;
+}
+svg.uptriangle{
+    fill: rgb(32, 33, 35); 
+    stroke:none; 
+    display: flex;
+    position: relative; 
+    left: 100%;
+    transform: translateX(-100%);
+}
+h1{
+    font-family: 'Roboto Thin';
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32pt;
+    font-weight: 100;
+}
+div.blocklist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    padding: 0%;
+}
+div.blocklist div.block:first-child{
+    margin-left: 0px;
+}
+div.blocklist span.block:last-child{
+    margin-right: 0px;
+}
+div.block{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 32%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+}
+div.inblock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aliceblue;
+    color: black;
+    width: auto;
+    height: auto;
+    margin: 20px;
+}
+h6.blockHeader{
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    border: 0px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16pt;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+div.inBlockSeparator{
+    width: 70px;
+    margin: auto;
+    border: 0px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: black;
+}
+p.inBlockText{
+    font-size: 14pt;
+}
